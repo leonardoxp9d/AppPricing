@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="unitOfMeasurement">
+        <item>@string/gram</item>
+        <item>@string/kilogram</item>
+        <item>@string/millimeter</item>
+        <item>@string/liter</item>
+        <item>@string/centimeter</item>
+        <item>@string/meter</item>
+        <item>@string/unit</item>
+
+    </string-array>
+</resources>

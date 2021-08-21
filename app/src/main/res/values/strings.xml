@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title_recipes">RECEITAS</string>
+    <string name="title_ingredients">INGREDIENTES</string>
+    <string name="title_materials">MATERIAIS</string>
+    <string name="title_calculations">CÁLCULOS</string>
+
+    <!-- Cadastro de Ingrediente -->
+    <string name="title_recipe">RECEITA</string>
+    <string name="title_ingredient">INGREDIENTE</string>
+    <string name="title_material">MATERIAl</string>
+    <string name="title_name">Nome</string>
+    <string name="title_brand">Marca</string>
+    <string name="title_price">Preço</string>
+    <string name="title_quantity">Quantidade</string>
+
+    <!-- Botões -->
+    <string name="title_save">SALVAR</string>
+
+    <!-- Unidade de medidas (Spinner) -->
+    <string name="gram">G</string>
+    <string name="kilogram">KG</string>
+    <string name="millimeter">ML</string>
+    <string name="liter">L</string>
+    <string name="centimeter">CM</string>
+    <string name="meter">M</string>
+    <string name="unit">UN</string>
+
+    <!-- activity_login -->
+    <string name="image">image</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- AlertDialog Remover Ingrediente -->
+    <string name="title_remove_ingredient">Remoção de ingrediente</string>
+    <string name="ask_remove_ingredient">Deseja remover ingrediente da lista ?</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="remove">Remover</string>
+    <string name="successfully_removed">Ingrediente removido com sucesso.</string>
+</resources>
