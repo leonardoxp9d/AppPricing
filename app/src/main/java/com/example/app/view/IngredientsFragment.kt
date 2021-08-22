@@ -40,7 +40,7 @@ class IngredientsFragment : Fragment() {
         listIngredients(root)
         observe()
         createIngredient()
-        updateIngredient()
+        listenerListIngredients()
 
         return root
     }
@@ -68,7 +68,7 @@ class IngredientsFragment : Fragment() {
         }
     }
 
-    private fun updateIngredient() {
+    private fun listenerListIngredients() {
         mListener = object : IngredientListener {
             override fun onClick(id: Int) {
                 val intent = Intent (context, CreateAndUpdateIngredientActivity::class.java)

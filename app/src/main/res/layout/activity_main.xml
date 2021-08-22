@@ -8,7 +8,7 @@
 
     <include
         android:id="@+id/include"
-        layout="@layout/toolbar_fragment" />
+        layout="@layout/toolbar_activity" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"

@@ -162,7 +162,7 @@ class CreateAndUpdateIngredientActivity : AppCompatActivity(), View.OnClickListe
                 }
 
                 RequestCodeConstants.requestCodeGallery -> {
-                    var photoSelectUri = data?.data
+                    val photoSelectUri = data?.data
                     photoSelect = MediaStore.Images.Media.getBitmap(contentResolver, photoSelectUri)
                 }
             }
